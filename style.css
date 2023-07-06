@@ -3,3 +3,43 @@
     padding: 0px;
     box-sizing: border-box;
 }
+header{
+    background-image: url(derick-david-paSLTZpHCdo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.menu-container{
+   
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.logo{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: Helvetica
+    
+}
+.logotitle{
+    text-decoration: none;
+}
+.menus{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    color: whitesmoke;
+    justify-content: center;
+}
+.menus li{
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
+}
+.menus li:hover{
+    background-color: #C1EADA;
+  color: #000000;
+
+}
