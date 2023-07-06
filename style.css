@@ -12,7 +12,7 @@ header {
     background-image: linear-gradient(rgba(56, 58, 192, 0.8), rgba(34, 39, 37, 0.3)), url(greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 615px;
+    height: 650px;
 }
 
 .menu-container {
@@ -84,4 +84,78 @@ header {
 .text button:hover {
     background-color: rgba(56, 58, 192, 0.8);
     color: rgb(241, 235, 235);
+}
+#About_us{
+    margin-top: 30px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+#About_us h1{
+    text-align: center;
+    color: rgb(56, 56, 56)
+}
+.About_us_content{
+    display: flex;
+    height: 350px;
+   justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+.About_us_content img{
+   margin-left:-100px ;
+
+  
+   
+}
+.About_us_content .text{
+   
+  margin-right: 190px;
+   margin-top: -120px;
+ 
+} 
+.text h2{
+    padding-top:20px;
+    color: rgb(50, 50, 187);
+}
+.text p{
+    padding-top: 20px;
+    color: rgb(94, 91, 91);
+    
+}
+#Our_blogs{
+    margin-top:100px;
+    background-color: rgb(238, 230, 230);
+    width: 100%; 
+    padding-bottom: 30px;
+}
+ #Our_blogs h1{
+    color:rgb(5, 5, 59);
+    text-align:center;
+    padding-top:20px;
+}
+.blog{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100vw;
+    margin-top: 50px;
+}
+.item{
+    box-sizing: border-box;
+    height: 400px;
+    background-color: white;
+    width:350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.item img{
+    width: 350px;
+}
+.item h3{
+    padding: 13px;
+    font-size: 17px;
+}
+.item p{
+    padding: 13px;
+    font-size: 13px;
 }
