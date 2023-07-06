@@ -2,12 +2,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-image: url(derick-david-paSLTZpHCdo-unsplash.jpg);
+    background-image:linear-gradient( rgba(56, 58, 192, 0.8), rgba(34, 39, 37, 0.3)),url(greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 615px;
 }
 .menu-container{
    
@@ -20,7 +21,7 @@ header{
 .logo{
     color: #FFFFFF;
     font-size: 25px;
-    font-family: Helvetica
+    font-family: Helvetica;
     
 }
 .logotitle{
@@ -37,9 +38,40 @@ header{
     padding: 10px;
     margin: 10px;
     font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .menus li:hover{
     background-color: #C1EADA;
   color: #000000;
+
+}
+.text{
+    margin-left: 220px;
+    margin-top: 150px;
+}
+.text h1{
+    color: white;
+ 
+} 
+.text h3{
+    color: rgb(189, 184, 184);
+    margin-top: 5px;
+    font-size: 18px;
+}
+.text button{
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid white;
+}
+.text button:hover{
+    background-color:rgba(23, 26, 233, 0.8);
+    color: white;
+    
 
 }
