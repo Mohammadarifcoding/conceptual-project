@@ -71,7 +71,6 @@ header{
 }
 .text button:hover{
     background-color:rgba(23, 26, 233, 0.8);
-    color: white;
-    
+    color: rgb(241, 235, 235);
 
 }
